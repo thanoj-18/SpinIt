@@ -1,0 +1,32 @@
+# ---- Build output (javac -d out) ----
+out/
+/classes/
+*.class
+
+# ---- IDE files ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
+
+# ---- Archives (do not commit built artifacts) ----
+*.jar
+*.war
+*.ear
